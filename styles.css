@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.header, .about, .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.major_title {
+    font-size: 32px;
+}
+
+.minor_title {
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: -80px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons button {
+    padding: 5px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.subheading {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+}
+
+hr {
+    color: rgb(77, 26, 114);
+}
+
+iframe {
+    border: 2px solid rgb(77, 26, 114);
+}
+
+body, div, button{
+    color: rgb(77, 26, 114);
+    font-family: Lato;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+
+th {
+    /* text-align: left; */
+    padding: 5px;
+    padding-left: 0%;
+    width: 120px;
+    font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.orange {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(229, 91, 56);
+}
+
+.yellow {
+    height: 15px;
+    width: 100%;
+    background-color: rgb(244, 146, 26);
+}
+
+.purple {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(77, 26, 114);
+}
+
+.copyright {
+    margin-top: -30px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
