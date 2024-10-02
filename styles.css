@@ -2,12 +2,19 @@ body {
     margin: 0;
 }
 
-.header, .about, .info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-    
+@media (max-width: 600px) {
+    .header, .about, .info {
+        margin: 20px;
+    }
+}
+
+@media (min-width: 601px) {
+    .header, .about, .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+    }
 }
 
 .title {
